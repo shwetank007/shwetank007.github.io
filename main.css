@@ -22,10 +22,6 @@ body {
     flex: 1;
 }
 
-.img-profile {
-    border-radius: 50%;
-}
-
 .line-break {
     border-width: 4px;
     border-color: #ffffff;
@@ -81,10 +77,9 @@ h2 {
         overflow-y: scroll;
         height: 100vh;
     }
-
-    .img-profile {
-        height: 300px;
-        width: 300px;
-        border-radius: 50%;
-    }
  }
+
+ .img-profile {
+    width: auto;
+    padding-bottom: 2rem;
+}
